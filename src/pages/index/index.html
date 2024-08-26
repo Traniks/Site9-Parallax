@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../index/scss/base-and-block.scss">
+        <link rel="stylesheet" href="scss/index.scss">
+        <script src="./js/libs/gsap/gsap.min.js" defer></script>
+        <script src="./js/libs/gsap/ScrollTrigger.min.js" defer></script>
+        <script src="./js/libs/gsap/ScrollSmoother.min.js" defer></script>
+        <script src="./js/index.js" defer></script>
+    <title>Parallax</title>
+</head>
+<body>
+    
+    <main class="wrapper">
+        <div class="content" style="will-change: transform;">
+            <section class="hero">
+                <div class="hero__layers">
+    
+                    <div class="hero__content">
+                        <h1 class="hero__title">Welcome to parallax</h1>
+                        <h2 class="hero__subtitle">Fairy forest</h2>
+                    </div>
+                    
+                    <div class="hero__layer hero__layer-base"></div>
+                    <div class="hero__layer hero__layer-middle"></div>
+                    <div class="hero__layer hero__layer-front"></div>
+                    
+                </div>
+            </section>
+            
+            <section class="main">
+                <div class="main__content">
+                    <h2 class="main__title">To be continued</h2>
+                    <p class="main__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad doloremque maiores dolorum placeat excepturi debitis odit officiis cum facilis dicta, labore ipsam, a neque ullam hic reprehenderit necessitatibus? Molestiae, rem?</p>
+                </div>
+                <div class="main__copy">© Traniks - Frontend Developer</div>
+            </section>
+        </div>
+    </main>
+    
+</body>
+</html>
